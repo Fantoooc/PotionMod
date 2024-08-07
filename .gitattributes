@@ -1,0 +1,29 @@
+#
+# https://help.github.com/articles/dealing-with-line-endings/
+#
+# Linux start script should use lf
+/gradlew        text eol=lf
+
+
+* text eol=lf
+
+# Для Java файлов
+*.java text eol=lf
+
+# Для JSON файлов
+*.json text eol=lf
+
+# Другие файлы, которые могут быть в вашем проекте
+*.md text eol=lf
+*.txt text eol=lf
+*.sh text eol=lf
+
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+*.jar binary
+*.exe binary
+*.dll binary
+*.png binary
+*.jpg binary
+

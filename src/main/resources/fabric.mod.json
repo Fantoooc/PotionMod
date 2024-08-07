@@ -1,0 +1,48 @@
+{
+	"schemaVersion": 1,
+	"id": "potionmod",
+	"version": "${version}",
+	"name": "Potion Mod",
+	"description": "This mod adds new potions!",
+	"authors": [
+		"Fantikk"
+	],
+	"contact": {
+		"discord": "fantikk."
+	},
+	"license": "MIT",
+	"icon": "assets/potionmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"org.dev.potionmod.PotionMod"
+		],
+		"fabric-datagen": [
+			"org.dev.potionmod.PotionModDataGenerator"
+		]
+	},
+	"mixins": [
+		"potionmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*",
+		"fabric": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"description": "This mod adds new potions!.",
+			"authors": [
+				"Fantikk"
+			],
+			"contact": {
+				"discord": "fantikk."
+			}
+		}
+	}
+}

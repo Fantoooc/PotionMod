@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "org.dev.potionmod.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ModMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

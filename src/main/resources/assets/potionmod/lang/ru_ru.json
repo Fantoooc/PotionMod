@@ -1,0 +1,89 @@
+{
+  "item.minecraft.potion.effect.blindness_potion": "Зелье слепоты",
+  "item.minecraft.splash_potion.effect.blindness_potion": "Взрывное зелье слепоты",
+  "item.minecraft.lingering_potion.effect.blindness_potion": "Туманное зелье слепоты",
+
+  "item.minecraft.potion.effect.long_blindness_potion": "Зелье слепоты",
+  "item.minecraft.splash_potion.effect.long_blindness_potion": "Взрывное зелье слепоты",
+  "item.minecraft.lingering_potion.effect.long_blindness_potion": "Туманное зелье слепоты",
+
+  "item.minecraft.potion.effect.blindness_potion_l2": "Зелье слепоты",
+  "item.minecraft.splash_potion.effect.blindness_potion_l2": "Взрывное зелье слепоты",
+  "item.minecraft.lingering_potion.effect.blindness_potion_l2": "Туманное зелье слепоты",
+
+
+
+  "item.minecraft.potion.effect.haste_potion": "Зелье спешки",
+  "item.minecraft.splash_potion.effect.haste_potion": "Взрывное зелье спешки",
+  "item.minecraft.lingering_potion.effect.haste_potion": "Туманное зелье спешки",
+
+  "item.minecraft.potion.effect.long_haste_potion": "Зелье спешки",
+  "item.minecraft.splash_potion.effect.long_haste_potion": "Взрывное зелье спешки",
+  "item.minecraft.lingering_potion.effect.long_haste_potion": "Туманное зелье спешки",
+
+  "item.minecraft.potion.effect.haste_potion_l2": "Зелье спешки",
+  "item.minecraft.splash_potion.effect.haste_potion_l2": "Взрывное зелье спешки",
+  "item.minecraft.lingering_potion.effect.haste_potion_l2": "Туманное зелье спешки",
+
+
+
+  "item.minecraft.potion.effect.mining_fatigue_potion": "Зелье утомления",
+  "item.minecraft.splash_potion.effect.mining_fatigue_potion": "Взрывное зелье утомления",
+  "item.minecraft.lingering_potion.effect.mining_fatigue_potion": "Туманное зелье утомления",
+
+  "item.minecraft.potion.effect.long_mining_fatigue_potion": "Зелье утомления",
+  "item.minecraft.splash_potion.effect.long_mining_fatigue_potion": "Взрывное зелье утомления",
+  "item.minecraft.lingering_potion.effect.long_mining_fatigue_potion": "Туманное зелье утомления",
+
+  "item.minecraft.potion.effect.mining_fatigue_potion_l2": "Зелье утомления",
+  "item.minecraft.splash_potion.effect.mining_fatigue_potion_l2": "Взрывное зелье утомления",
+  "item.minecraft.lingering_potion.effect.mining_fatigue_potion_l2": "Туманное зелье утомления",
+
+
+
+  "item.minecraft.potion.effect.luck_potion": "Зелье удачи",
+  "item.minecraft.splash_potion.effect.luck_potion": "Взрывное зелье удачи",
+  "item.minecraft.lingering_potion.effect.luck_potion": "Туманное зелье удачи",
+
+  "item.minecraft.potion.effect.long_luck_potion": "Зелье удачи",
+  "item.minecraft.splash_potion.effect.long_luck_potion": "Взрывное зелье удачи",
+  "item.minecraft.lingering_potion.effect.long_luck_potion": "Туманное зелье удачи",
+
+  "item.minecraft.potion.effect.luck_potion_l2": "Зелье удачи",
+  "item.minecraft.splash_potion.effect.luck_potion_l2": "Взрывное зелье удачи",
+  "item.minecraft.lingering_potion.effect.luck_potion_l2": "Туманное зелье удачи",
+
+
+
+  "item.minecraft.potion.effect.unluck_potion": "Зелье неудачи",
+  "item.minecraft.splash_potion.effect.unluck_potion": "Взрывное зелье неудачи",
+  "item.minecraft.lingering_potion.effect.unluck_potion": "Туманное зелье неудачи",
+
+  "item.minecraft.potion.effect.long_unluck_potion": "Зелье неудачи",
+  "item.minecraft.splash_potion.effect.long_unluck_potion": "Взрывное зелье неудачи",
+  "item.minecraft.lingering_potion.effect.long_unluck_potion": "Туманное зелье неудачи",
+
+  "item.minecraft.potion.effect.unluck_potion_l2": "Зелье неудачи",
+  "item.minecraft.splash_potion.effect.unluck_potion_l2": "Взрывное зелье неудачи",
+  "item.minecraft.lingering_potion.effect.unluck_potion_l2": "Туманное зелье неудачи",
+
+
+
+  "item.minecraft.potion.effect.darkness_potion": "Зелье тьмы",
+  "item.minecraft.splash_potion.effect.darkness_potion": "Взрывное зелье тьмы",
+  "item.minecraft.lingering_potion.effect.darkness_potion": "Туманное зелье тьмы",
+
+  "item.minecraft.potion.effect.long_darkness_potion": "Зелье тьмы",
+  "item.minecraft.splash_potion.effect.long_darkness_potion": "Взрывное зелье тьмы",
+  "item.minecraft.lingering_potion.effect.long_darkness_potion": "Туманное зелье тьмы",
+
+  "item.minecraft.potion.effect.darkness_potion_l2": "Зелье тьмы",
+  "item.minecraft.splash_potion.effect.darkness_potion_l2": "Взрывное зелье тьмы",
+  "item.minecraft.lingering_potion.effect.darkness_potion_l2": "Туманное зелье тьмы",
+
+
+
+  "item.minecraft.potion.effect.hero_potion": "Зелье героя деревни",
+  "item.minecraft.splash_potion.effect.hero_potion": "Взрывное зелье героя деревни",
+  "item.minecraft.lingering_potion.effect.hero_potion": "Туманное зелье героя деревни"
+}
