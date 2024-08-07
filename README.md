@@ -17,7 +17,25 @@ Realized potions:
 
 Also added custom recipes for each potion.
 
----
+<details>
+<summary>Recipes</summary>
+  
+- Flint + Awkward Potion -> Blindness Potion
+  
+- Crying Obsidian + Awkard Potion -> Mining Fatigue potion
+
+- Sculk Shrieker + Awkard Potion -> Darkness Potion
+
+- Obsidian + Awkard Potion -> Haste Potion
+
+- Blue Orchid + Thick Potion -> Luck Potion
+
+- Wither Rose + Thick Potion -> Unluck Potion
+
+- Totem of Undying + Thick Potion -> Hero of Village Potion
+
+</details>
+
 ## Installation
 
 1. **Install Fabric**:
