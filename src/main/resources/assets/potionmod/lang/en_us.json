@@ -1,89 +1,43 @@
 {
-  "item.minecraft.potion.effect.blindness_potion": "Potion of Blindness",
-  "item.minecraft.splash_potion.effect.blindness_potion": "Splash Potion of Blindness",
-  "item.minecraft.lingering_potion.effect.blindness_potion": "Lingering Potion of Blindness",
+  "item.minecraft.potion": "Potion",
+  "item.minecraft.lingering_potion": "Lingering Potion",
+  "item.minecraft.splash_potion": "Splash Potion",
 
-  "item.minecraft.potion.effect.long_blindness_potion": "Potion of Blindness",
-  "item.minecraft.splash_potion.effect.long_blindness_potion": "Splash Potion of Blindness",
-  "item.minecraft.lingering_potion.effect.long_blindness_potion": "Lingering Potion of Blindness",
+  "potion.potency.0": "",
+  "potion.potency.1": "II",
+  "potion.potency.2": "III",
+  "potion.potency.3": "IV",
+  "potion.potency.4": "V",
+  "potion.potency.5": "VI",
+  "potion.whenDrank": "When Applied:",
+  "potion.withAmplifier": "%s %s",
+  "potion.withDuration": "%s (%s)",
 
-  "item.minecraft.potion.effect.blindness_potion_l2": "Potion of Blindness",
-  "item.minecraft.splash_potion.effect.blindness_potion_l2": "Splash Potion of Blindness",
-  "item.minecraft.lingering_potion.effect.blindness_potion_l2": "Lingering Potion of Blindness",
+  "item.minecraft.potion.effect.blindness": "Potion of Blindness",
+  "item.minecraft.splash_potion.effect.blindness": "Splash Potion of Blindness",
+  "item.minecraft.lingering_potion.effect.blindness": "Lingering Potion of Blindness",
 
+  "item.minecraft.potion.effect.haste": "Potion of Haste",
+  "item.minecraft.splash_potion.effect.haste": "Splash Potion of Haste",
+  "item.minecraft.lingering_potion.effect.haste": "Lingering Potion of Haste",
 
+  "item.minecraft.potion.effect.mining_fatigue": "Potion of Mining Fatigue",
+  "item.minecraft.splash_potion.effect.mining_fatigue": "Splash Potion of Mining Fatigue",
+  "item.minecraft.lingering_potion.effect.mining_fatigue": "Lingering Potion of Mining Fatigue",
 
-  "item.minecraft.potion.effect.haste_potion": "Potion of Haste",
-  "item.minecraft.splash_potion.effect.haste_potion": "Splash Potion of Haste",
-  "item.minecraft.lingering_potion.effect.haste_potion": "Lingering Potion of Haste",
+  "item.minecraft.potion.effect.luck": "Potion of Luck",
+  "item.minecraft.splash_potion.effect.luck": "Splash Potion of Luck",
+  "item.minecraft.lingering_potion.effect.luck": "Lingering Potion of Luck",
 
-  "item.minecraft.potion.effect.long_haste_potion": "Potion of Haste",
-  "item.minecraft.splash_potion.effect.long_haste_potion": "Splash Potion of Haste",
-  "item.minecraft.lingering_potion.effect.long_haste_potion": "Lingering Potion of Haste",
+  "item.minecraft.potion.effect.unluck": "Potion of Unluck",
+  "item.minecraft.splash_potion.effect.unluck": "Splash Potion of Unluck",
+  "item.minecraft.lingering_potion.effect.unluck": "Lingering Potion of Unluck",
 
-  "item.minecraft.potion.effect.haste_potion_l2": "Potion of Haste",
-  "item.minecraft.splash_potion.effect.haste_potion_l2": "Splash Potion of Haste",
-  "item.minecraft.lingering_potion.effect.haste_potion_l2": "Lingering Potion of Haste",
+  "item.minecraft.potion.effect.darkness": "Potion of Darkness",
+  "item.minecraft.splash_potion.effect.darkness": "Splash Potion of Darkness",
+  "item.minecraft.lingering_potion.effect.darkness": "Lingering Potion of Darkness",
 
-
-
-  "item.minecraft.potion.effect.mining_fatigue_potion": "Potion of Mining Fatigue",
-  "item.minecraft.splash_potion.effect.mining_fatigue_potion": "Splash Potion of Mining Fatigue",
-  "item.minecraft.lingering_potion.effect.mining_fatigue_potion": "Lingering Potion of Mining Fatigue",
-
-  "item.minecraft.potion.effect.long_mining_fatigue_potion": "Potion of Mining Fatigue",
-  "item.minecraft.splash_potion.effect.long_mining_fatigue_potion": "Splash Potion of Mining Fatigue",
-  "item.minecraft.lingering_potion.effect.long_mining_fatigue_potion": "Lingering Potion of Mining Fatigue",
-
-  "item.minecraft.potion.effect.mining_fatigue_potion_l2": "Potion of Mining Fatigue",
-  "item.minecraft.splash_potion.effect.mining_fatigue_potion_l2": "Splash Potion of Mining Fatigue",
-  "item.minecraft.lingering_potion.effect.mining_fatigue_potion_l2": "Lingering Potion of Mining Fatigue",
-
-
-
-  "item.minecraft.potion.effect.luck_potion": "Potion of Luck",
-  "item.minecraft.splash_potion.effect.luck_potion": "Splash Potion of Luck",
-  "item.minecraft.lingering_potion.effect.luck_potion": "Lingering Potion of Luck",
-
-  "item.minecraft.potion.effect.long_luck_potion": "Potion of Luck",
-  "item.minecraft.splash_potion.effect.long_luck_potion": "Splash Potion of Luck",
-  "item.minecraft.lingering_potion.effect.long_luck_potion": "Lingering Potion of Luck",
-
-  "item.minecraft.potion.effect.luck_potion_l2": "Potion of Luck",
-  "item.minecraft.splash_potion.effect.luck_potion_l2": "Splash Potion of Luck",
-  "item.minecraft.lingering_potion.effect.luck_potion_l2": "Lingering Potion of Luck",
-
-
-
-  "item.minecraft.potion.effect.unluck_potion": "Potion of Unluck",
-  "item.minecraft.splash_potion.effect.unluck_potion": "Splash Potion of Unluck",
-  "item.minecraft.lingering_potion.effect.unluck_potion": "Lingering Potion of Unluck",
-
-  "item.minecraft.potion.effect.long_unluck_potion": "Potion of Unluck",
-  "item.minecraft.splash_potion.effect.long_unluck_potion": "Splash Potion of Unluck",
-  "item.minecraft.lingering_potion.effect.long_unluck_potion": "Lingering Potion of Unluck",
-
-  "item.minecraft.potion.effect.unluck_potion_l2": "Potion of Unluck",
-  "item.minecraft.splash_potion.effect.unluck_potion_l2": "Splash Potion of Unluck",
-  "item.minecraft.lingering_potion.effect.unluck_potion_l2": "Lingering Potion of Unluck",
-
-
-
-  "item.minecraft.potion.effect.darkness_potion": "Potion of Darkness",
-  "item.minecraft.splash_potion.effect.darkness_potion": "Splash Potion of Darkness",
-  "item.minecraft.lingering_potion.effect.darkness_potion": "Lingering Potion of Darkness",
-
-  "item.minecraft.potion.effect.long_darkness_potion": "Potion of Darkness",
-  "item.minecraft.splash_potion.effect.long_darkness_potion": "Splash Potion of Darkness",
-  "item.minecraft.lingering_potion.effect.long_darkness_potion": "Lingering Potion of Darkness",
-
-  "item.minecraft.potion.effect.darkness_potion_l2": "Potion of Darkness",
-  "item.minecraft.splash_potion.effect.darkness_potion_l2": "Splash Potion of Darkness",
-  "item.minecraft.lingering_potion.effect.darkness_potion_l2": "Lingering Potion of Darkness",
-
-
-
-  "item.minecraft.potion.effect.hero_potion": "Hero of village Potion",
-  "item.minecraft.splash_potion.effect.hero_potion": "Splash Hero of village Potion",
-  "item.minecraft.lingering_potion.effect.hero_potion": "Lingering Hero of village Potion"
+  "item.minecraft.potion.effect.hero_of_village": "Hero of village Potion",
+  "item.minecraft.splash_potion.effect.hero_of_village": "Splash Hero of village Potion",
+  "item.minecraft.lingering_potion.effect.hero_of_village": "Lingering Hero of village Potion"
 }

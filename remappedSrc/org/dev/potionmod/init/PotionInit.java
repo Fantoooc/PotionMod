@@ -39,7 +39,9 @@ public class PotionInit {
         return Registry.registerReference(Registries.POTION, PotionMod.id(name), potion);
     }
 
-    public static void registerPotions() {}
+    public static void registerPotions() {
+
+    }
 
     static {
         BLINDNESS_POTION = register("blindness_potion", BLINDNESS);

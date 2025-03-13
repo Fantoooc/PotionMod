@@ -16,17 +16,11 @@
 	"entrypoints": {
 		"main": [
 			"org.dev.potionmod.PotionMod"
-		],
-		"fabric-datagen": [
-			"org.dev.potionmod.PotionModDataGenerator"
 		]
 	},
-	"mixins": [
-		"potionmod.mixins.json"
-	],
 	"depends": {
-		"fabricloader": ">=0.15.11",
-		"minecraft": "~1.21",
+		"fabricloader": ">=0.16.7",
+		"minecraft": ">=1.21",
 		"java": ">=21",
 		"fabric-api": "*",
 		"fabric": "*"
