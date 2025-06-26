@@ -1,11 +1,10 @@
 package org.dev.potionmod.init;
 
-import net.fabricmc.fabric.api.registry.FabricBrewingRecipeRegistry;
+import net.fabricmc.fabric.api.registry.FabricBrewingRecipeRegistryBuilder;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.Potions;
-import net.minecraft.recipe.Ingredient;
 import net.minecraft.registry.entry.RegistryEntry;
 
 public class PotionRecipes {
@@ -65,36 +64,39 @@ public class PotionRecipes {
         );
 
         // HERO POTION
-        FabricBrewingRecipeRegistry
-                .registerPotionRecipe(
-                        Potions.THICK,
-                        Ingredient.ofItems(Items.TOTEM_OF_UNDYING),
-                        PotionInit.HERO_POTION.value()
-                );
+        FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
+            builder.registerPotionRecipe(
+                    Potions.THICK,
+                    Items.TOTEM_OF_UNDYING,
+                    PotionInit.HERO_POTION
+            );
+        });
     }
 
 
     private static void registerPotionTiers(
-            Potion basePotion,
+            RegistryEntry<Potion> basePotion,
             Item ingredient,
             RegistryEntry<Potion> baseResult,
             RegistryEntry<Potion> longResult,
             RegistryEntry<Potion> strongResult
     ) {
-        FabricBrewingRecipeRegistry.registerPotionRecipe(
-                basePotion,
-                Ingredient.ofItems(ingredient),
-                baseResult.value()
-        );
-        FabricBrewingRecipeRegistry.registerPotionRecipe(
-                baseResult.value(),
-                Ingredient.ofItems(Items.REDSTONE),
-                longResult.value()
-        );
-        FabricBrewingRecipeRegistry.registerPotionRecipe(
-                baseResult.value(),
-                Ingredient.ofItems(Items.GLOWSTONE_DUST),
-                strongResult.value()
-        );
+        FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
+            builder.registerPotionRecipe(
+                    basePotion,
+                    ingredient,
+                    baseResult
+            );
+            builder.registerPotionRecipe(
+                    baseResult,
+                    Items.REDSTONE,
+                    longResult
+            );
+            builder.registerPotionRecipe(
+                    baseResult,
+                    Items.GLOWSTONE_DUST,
+                    strongResult
+            );
+        });
     }
 }

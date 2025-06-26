@@ -1,6 +1,6 @@
 package org.dev.potionmod.chests;
 
-import net.fabricmc.fabric.api.loot.v2.LootTableEvents;
+import net.fabricmc.fabric.api.loot.v3.LootTableEvents;
 import net.minecraft.item.Items;
 import net.minecraft.loot.LootPool;
 import net.minecraft.loot.condition.RandomChanceLootCondition;
@@ -18,14 +18,14 @@ public class AddingToChests {
     public static void init() {}
 
     public static void add(Identifier loot_table, List<RegistryEntry<Potion>> potions, List<Float> chances) {
-        LootTableEvents.MODIFY.register((resourceManager, lootManager, id, tableBuilder, source) -> {
-            if (loot_table.equals(id) && source.isBuiltin()) {
+        LootTableEvents.MODIFY.register((key, tableBuilder, source, registries) -> {
+            if (key.getValue().equals(loot_table) && source.isBuiltin()) {
                 for (int i = 0; i < potions.size(); i++) {
                     LootPool.Builder poolBuilder = LootPool.builder()
                             .rolls(ConstantLootNumberProvider.create(1))
                             .conditionally(RandomChanceLootCondition.builder(chances.get(i)))
                             .with(ItemEntry.builder(Items.POTION)
-                            .apply(SetPotionLootFunction.builder(potions.get(i).value())));
+                                    .apply(SetPotionLootFunction.builder(potions.get(i))));
                     tableBuilder.pool(poolBuilder);
                 }
             }
