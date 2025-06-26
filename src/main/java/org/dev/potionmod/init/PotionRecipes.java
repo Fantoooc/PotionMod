@@ -1,127 +1,100 @@
 package org.dev.potionmod.init;
 
-
-import net.fabricmc.fabric.api.registry.FabricBrewingRecipeRegistryBuilder;
+import net.fabricmc.fabric.api.registry.FabricBrewingRecipeRegistry;
+import net.minecraft.item.Item;
 import net.minecraft.item.Items;
+import net.minecraft.potion.Potion;
 import net.minecraft.potion.Potions;
+import net.minecraft.recipe.Ingredient;
+import net.minecraft.registry.entry.RegistryEntry;
 
 public class PotionRecipes {
     public static void recipeRegister() {
-        FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
-            // BLINDNESS POTION
-            builder.registerPotionRecipe(
-                    Potions.AWKWARD,
-                    Items.FLINT,
-                    PotionInit.BLINDNESS_POTION
-            );
-            builder.registerPotionRecipe(
-                    PotionInit.BLINDNESS_POTION,
-                    Items.REDSTONE,
-                    PotionInit.LONG_BLINDNESS_POTION
-            );
-            builder.registerPotionRecipe(
-                    PotionInit.BLINDNESS_POTION,
-                    Items.GLOWSTONE,
-                    PotionInit.BLINDNESS_POTION_L2
-            );
+        // BLINDNESS POTION
+        registerPotionTiers(
+                Potions.AWKWARD,
+                Items.FLINT,
+                PotionInit.BLINDNESS_POTION,
+                PotionInit.LONG_BLINDNESS_POTION,
+                PotionInit.BLINDNESS_POTION_L2
+        );
+
+        // MINING FATIGUE POTION
+        registerPotionTiers(
+                Potions.AWKWARD,
+                Items.CRYING_OBSIDIAN,
+                PotionInit.MINING_FATIGUE_POTION,
+                PotionInit.LONG_MINING_FATIGUE_POTION,
+                PotionInit.MINING_FATIGUE_POTION_L2
+        );
+
+        // DARKNESS POTION
+        registerPotionTiers(
+                Potions.AWKWARD,
+                Items.SCULK_SHRIEKER,
+                PotionInit.DARKNESS_POTION,
+                PotionInit.LONG_DARKNESS_POTION,
+                PotionInit.DARKNESS_POTION_L2
+        );
+
+        // HASTE POTION
+        registerPotionTiers(
+                Potions.AWKWARD,
+                Items.OBSIDIAN,
+                PotionInit.HASTE_POTION,
+                PotionInit.LONG_HASTE_POTION,
+                PotionInit.HASTE_POTION_L2
+        );
+
+        // LUCK POTION
+        registerPotionTiers(
+                Potions.THICK,
+                Items.BLUE_ORCHID,
+                PotionInit.LUCK_POTION,
+                PotionInit.LONG_LUCK_POTION,
+                PotionInit.LUCK_POTION_L2
+        );
+
+        // UNLUCK POTION
+        registerPotionTiers(
+                Potions.THICK,
+                Items.WITHER_ROSE,
+                PotionInit.UNLUCK_POTION,
+                PotionInit.LONG_UNLUCK_POTION,
+                PotionInit.UNLUCK_POTION_L2
+        );
+
+        // HERO POTION
+        FabricBrewingRecipeRegistry
+                .registerPotionRecipe(
+                        Potions.THICK,
+                        Ingredient.ofItems(Items.TOTEM_OF_UNDYING),
+                        PotionInit.HERO_POTION.value()
+                );
+    }
 
 
-            // MINING FATIGUE POTION
-            builder.registerPotionRecipe(
-                    Potions.AWKWARD,
-                    Items.CRYING_OBSIDIAN,
-                    PotionInit.MINING_FATIGUE_POTION
-            );
-            builder.registerPotionRecipe(
-                    PotionInit.MINING_FATIGUE_POTION,
-                    Items.REDSTONE,
-                    PotionInit.LONG_MINING_FATIGUE_POTION
-            );
-            builder.registerPotionRecipe(
-                    PotionInit.MINING_FATIGUE_POTION,
-                    Items.GLOWSTONE,
-                    PotionInit.MINING_FATIGUE_POTION_L2
-            );
-
-
-            // DARKNESS POTION
-            builder.registerPotionRecipe(
-                    Potions.AWKWARD,
-                    Items.SCULK_SHRIEKER,
-                    PotionInit.DARKNESS_POTION
-            );
-            builder.registerPotionRecipe(
-                    PotionInit.DARKNESS_POTION,
-                    Items.REDSTONE,
-                    PotionInit.LONG_DARKNESS_POTION
-            );
-            builder.registerPotionRecipe(
-                    PotionInit.DARKNESS_POTION,
-                    Items.GLOWSTONE,
-                    PotionInit.DARKNESS_POTION_L2
-            );
-
-
-            // HASTE POTION
-            builder.registerPotionRecipe(
-                    Potions.AWKWARD,
-                    Items.OBSIDIAN,
-                    PotionInit.HASTE_POTION
-            );
-            builder.registerPotionRecipe(
-                    PotionInit.HASTE_POTION,
-                    Items.REDSTONE,
-                    PotionInit.LONG_HASTE_POTION
-            );
-            builder.registerPotionRecipe(
-                    PotionInit.HASTE_POTION,
-                    Items.GLOWSTONE,
-                    PotionInit.HASTE_POTION_L2
-            );
-
-
-            // LUCK POTION
-            builder.registerPotionRecipe(
-                    Potions.THICK,
-                    Items.BLUE_ORCHID,
-                    PotionInit.LUCK_POTION
-            );
-            builder.registerPotionRecipe(
-                    PotionInit.LUCK_POTION,
-                    Items.REDSTONE,
-                    PotionInit.LONG_LUCK_POTION
-            );
-            builder.registerPotionRecipe(
-                    PotionInit.LUCK_POTION,
-                    Items.GLOWSTONE,
-                    PotionInit.LUCK_POTION_L2
-            );
-
-
-            // UNLUCK POTION
-            builder.registerPotionRecipe(
-                    Potions.THICK,
-                    Items.WITHER_ROSE,
-                    PotionInit.UNLUCK_POTION
-            );
-            builder.registerPotionRecipe(
-                    PotionInit.UNLUCK_POTION,
-                    Items.REDSTONE,
-                    PotionInit.LONG_UNLUCK_POTION
-            );
-            builder.registerPotionRecipe(
-                    PotionInit.UNLUCK_POTION,
-                    Items.GLOWSTONE,
-                    PotionInit.UNLUCK_POTION_L2
-            );
-
-
-            // HERO POTION
-            builder.registerPotionRecipe(
-                    Potions.THICK,
-                    Items.TOTEM_OF_UNDYING,
-                    PotionInit.HERO_POTION
-            );
-        });
+    private static void registerPotionTiers(
+            Potion basePotion,
+            Item ingredient,
+            RegistryEntry<Potion> baseResult,
+            RegistryEntry<Potion> longResult,
+            RegistryEntry<Potion> strongResult
+    ) {
+        FabricBrewingRecipeRegistry.registerPotionRecipe(
+                basePotion,
+                Ingredient.ofItems(ingredient),
+                baseResult.value()
+        );
+        FabricBrewingRecipeRegistry.registerPotionRecipe(
+                baseResult.value(),
+                Ingredient.ofItems(Items.REDSTONE),
+                longResult.value()
+        );
+        FabricBrewingRecipeRegistry.registerPotionRecipe(
+                baseResult.value(),
+                Ingredient.ofItems(Items.GLOWSTONE_DUST),
+                strongResult.value()
+        );
     }
 }

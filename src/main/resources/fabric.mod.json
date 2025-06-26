@@ -3,7 +3,7 @@
 	"id": "potionmod",
 	"version": "${version}",
 	"name": "Potion Mod",
-	"description": "This mod adds new potions!",
+	"description": "This mod adds new potions & crafts for them using the standard Minecraft effects.",
 	"authors": [
 		"Fantikk"
 	],
@@ -20,7 +20,7 @@
 	},
 	"depends": {
 		"fabricloader": ">=0.16.7",
-		"minecraft": ">=1.21",
+		"minecraft": ">=1.20",
 		"java": ">=21",
 		"fabric-api": "*",
 		"fabric": "*"
