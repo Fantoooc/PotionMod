@@ -1,0 +1,43 @@
+{
+  "item.minecraft.potion": "Зелье",
+  "item.minecraft.lingering_potion": "Туманное зелье",
+  "item.minecraft.splash_potion": "Взрывное зелье",
+
+  "potion.potency.0": "",
+  "potion.potency.1": "II",
+  "potion.potency.2": "III",
+  "potion.potency.3": "IV",
+  "potion.potency.4": "V",
+  "potion.potency.5": "VI",
+  "potion.whenDrank": "When Applied:",
+  "potion.withAmplifier": "%s %s",
+  "potion.withDuration": "%s (%s)",
+
+  "item.minecraft.potion.effect.blindness": "Зелье слепоты",
+  "item.minecraft.splash_potion.effect.blindness": "Взрывное зелье слепоты",
+  "item.minecraft.lingering_potion.effect.blindness": "Туманное зелье слепоты",
+
+  "item.minecraft.potion.effect.haste": "Зелье спешки",
+  "item.minecraft.splash_potion.effect.haste": "Взрывное зелье спешки",
+  "item.minecraft.lingering_potion.effect.haste": "Туманное зелье спешки",
+
+  "item.minecraft.potion.effect.mining_fatigue": "Зелье утомления",
+  "item.minecraft.splash_potion.effect.mining_fatigue": "Взрывное зелье утомления",
+  "item.minecraft.lingering_potion.effect.mining_fatigue": "Туманное зелье утомления",
+
+  "item.minecraft.potion.effect.luck": "Зелье удачи",
+  "item.minecraft.splash_potion.effect.luck": "Взрывное зелье удачи",
+  "item.minecraft.lingering_potion.effect.luck": "Туманное зелье удачи",
+
+  "item.minecraft.potion.effect.unluck": "Зелье неудачи",
+  "item.minecraft.splash_potion.effect.unluck": "Взрывное зелье неудачи",
+  "item.minecraft.lingering_potion.effect.unluck": "Туманное зелье неудачи",
+
+  "item.minecraft.potion.effect.darkness": "Зелье тьмы",
+  "item.minecraft.splash_potion.effect.darkness": "Взрывное зелье тьмы",
+  "item.minecraft.lingering_potion.effect.darkness": "Туманное зелье тьмы",
+
+  "item.minecraft.potion.effect.hero_of_village": "Зелье героя деревни",
+  "item.minecraft.splash_potion.effect.hero_of_village": "Взрывное зелье героя деревни",
+  "item.minecraft.lingering_potion.effect.hero_of_village": "Туманное зелье героя деревни"
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "potionmod",
+  "version": "${version}",
+  "name": "Potion Mod",
+  "description": "This mod adds new potions & crafts for them using the standard Minecraft effects.",
+  "authors": [
+    "Fantoooc"
+  ],
+  "contact": {
+    "discord": "fantikk."
+  },
+  "license": "MIT",
+  "icon": "assets/potionmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.fantoooc.potionmod.PotionMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "fabric-api": "*",
+    "minecraft": ">=${minecraft_version}"
+  },
+  "custom": {
+    "modmenu": {
+      "description": "This mod adds new potions!.",
+      "authors": [
+        "Fantikk"
+      ],
+      "contact": {
+        "discord": "fantikk."
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.gradle
+.gradle/loom-cache
+.idea
+build
+# gradle
+run
+
+LICENSE.txt
+README.md
+.gitignore

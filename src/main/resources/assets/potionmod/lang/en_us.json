@@ -1,0 +1,43 @@
+{
+  "item.minecraft.potion": "Potion",
+  "item.minecraft.lingering_potion": "Lingering Potion",
+  "item.minecraft.splash_potion": "Splash Potion",
+
+  "potion.potency.0": "",
+  "potion.potency.1": "II",
+  "potion.potency.2": "III",
+  "potion.potency.3": "IV",
+  "potion.potency.4": "V",
+  "potion.potency.5": "VI",
+  "potion.whenDrank": "When Applied:",
+  "potion.withAmplifier": "%s %s",
+  "potion.withDuration": "%s (%s)",
+
+  "item.minecraft.potion.effect.blindness": "Potion of Blindness",
+  "item.minecraft.splash_potion.effect.blindness": "Splash Potion of Blindness",
+  "item.minecraft.lingering_potion.effect.blindness": "Lingering Potion of Blindness",
+
+  "item.minecraft.potion.effect.haste": "Potion of Haste",
+  "item.minecraft.splash_potion.effect.haste": "Splash Potion of Haste",
+  "item.minecraft.lingering_potion.effect.haste": "Lingering Potion of Haste",
+
+  "item.minecraft.potion.effect.mining_fatigue": "Potion of Mining Fatigue",
+  "item.minecraft.splash_potion.effect.mining_fatigue": "Splash Potion of Mining Fatigue",
+  "item.minecraft.lingering_potion.effect.mining_fatigue": "Lingering Potion of Mining Fatigue",
+
+  "item.minecraft.potion.effect.luck": "Potion of Luck",
+  "item.minecraft.splash_potion.effect.luck": "Splash Potion of Luck",
+  "item.minecraft.lingering_potion.effect.luck": "Lingering Potion of Luck",
+
+  "item.minecraft.potion.effect.unluck": "Potion of Unluck",
+  "item.minecraft.splash_potion.effect.unluck": "Splash Potion of Unluck",
+  "item.minecraft.lingering_potion.effect.unluck": "Lingering Potion of Unluck",
+
+  "item.minecraft.potion.effect.darkness": "Potion of Darkness",
+  "item.minecraft.splash_potion.effect.darkness": "Splash Potion of Darkness",
+  "item.minecraft.lingering_potion.effect.darkness": "Lingering Potion of Darkness",
+
+  "item.minecraft.potion.effect.hero_of_village": "Hero of village Potion",
+  "item.minecraft.splash_potion.effect.hero_of_village": "Splash Hero of village Potion",
+  "item.minecraft.lingering_potion.effect.hero_of_village": "Lingering Hero of village Potion"
+}
